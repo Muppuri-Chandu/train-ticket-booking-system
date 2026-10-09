@@ -1,0 +1,30 @@
+a.out : main.o save_usr_logins.o sign_up.o reserve_ticket.o cancel_ticket.o booking_info.o sync_usr_logins.o sync_seat_info.o save_seat_info.o sign_in.o booking_menu.o sync_passengers_info.c save_passengers_info.o sync_train_info.o
+	gcc main.o save_usr_logins.o sign_up.o reserve_ticket.o cancel_ticket.o booking_info.o sync_usr_logins.o sync_seat_info.o save_seat_info.o sign_in.o booking_menu.o sync_passengers_info.c save_passengers_info.o sync_train_info.o
+main.o : main.c
+	gcc -c main.c
+reserve_ticket.o : reserve_ticket.c
+	gcc -c reserve_ticket.c
+cancel_ticket.o : cancel_ticket.c
+	gcc -c cancel_ticket.c
+booking_info.o : booking_info.c
+	gcc -c booking_info.c
+sync_seat_info.o : sync_seat_info.c
+	gcc -c sync_seat_info.c
+save_seat_info.o : save_seat_info.c
+	gcc -c save_seat_info.c
+save_usr_logins.o : save_usr_logins.c
+	gcc -c save_usr_logins.c
+sign_up.o : sign_up.c
+	gcc -c sign_up.c
+sync_usr_logins.o : sync_usr_logins.c
+	gcc -c sync_usr_logins.c
+sign_in.o : sign_in.c
+	gcc -c sign_in.c
+booking_menu.o : booking_menu.c
+	gcc -c booking_menu.c
+save_passengers_info.o : save_passengers_info.c
+	gcc -c save_passengers_info.c
+sync_train_info.o : sync_train_info.c
+	gcc -c sync_train_info.c
+sync_passengers_info.o : sync_passengers_info.c
+	gcc -c sync_passengers_info.c

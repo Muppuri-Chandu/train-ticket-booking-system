@@ -1,0 +1,10 @@
+12701      Chennai_Express          Chennai         Vizag            50
+11187      Udaipur_Ghat_Express     Mumbai          Ranchi           20
+73910      Godavari_Express         Vijayawada      Hyderabad        30
+62390      Pinakini_Express         Benguluru       Chennai          30
+66301      Howra_Express            Chennai         Kolkata          40
+51089      Kochi_Express            Kanyakumari     Hyderabad        50
+11181      Thirupati_Express        Thirupati       Chennai          40
+39104      Guntur_Express           Kakinada        Hyderabad        20
+55820      Mumbai_Express           Mumbai          Delhi            60
+83703      Ranchi_Express           Ranchi          benguluru        20
